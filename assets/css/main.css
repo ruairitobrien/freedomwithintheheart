@@ -98,7 +98,7 @@ section {
   background-size: 100% 100%;
   min-height: 650px; }
 
-#graphic-novel {
+#literature {
   background: url(../../images/graphic-novel.jpg) 50% 0% fixed repeat;
   background-size: 100% 100%;
   min-height: 650px; }
@@ -115,7 +115,7 @@ footer {
   min-height: 600px;
   position: relative; }
 
-#graphic-novel hr {
+#literature hr {
   color: tramsparent; }
 
 .color-white {
@@ -208,7 +208,7 @@ navbar-fixed-top {
   #about {
     background: url(../../images/about.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; }
-  #graphic-novel {
+  #literature {
     background: url(../../images/graphic-novel.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; }
   footer {

@@ -11,7 +11,7 @@ var browserSync = require('browser-sync').create();
 var paths = {
     sass: ['./assets/sass/**/*.scss'],
     css: ['./assets/css/**/*.css'],
-    js: ['./assets/js/**/*.min.js']
+    js: ['./assets/js/**/*.js']
 };
 
 gulp.task('help', $.taskListing);
@@ -81,7 +81,7 @@ gulp.task('git-check', function (done) {
 gulp.task('inject', ['sass'], function () {
     return gulp
         .src('./index.html')
-        .pipe(inject(paths.js,
+         .pipe(inject(paths.js,
             '',
             {
                 read: false,
@@ -90,7 +90,7 @@ gulp.task('inject', ['sass'], function () {
             [
                 'assets/lib/jquery.min.js',
                 '**/*.js',
-                '**/main.min.js'
+                '**/main.js'
             ]
         ))
         .pipe(inject('./assets/css/**/*.min.css', '', {read: false, relative: true}))

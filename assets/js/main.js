@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	jQuery('#top-section').parallax("50%", 0.1);
 	jQuery('#about').parallax("70%", 0.3);
-	jQuery('#graphic-novel').parallax("50%", 0.1);
+	jQuery('#literature').parallax("50%", 0.1);
 	jQuery('#maron-pictures').parallax("50%", 0.1);
 	
 	//hide menu after click on mobile
