@@ -1,0 +1,19 @@
+{
+  "name": "freedom-site",
+  "description": "Freedom within the heart website",
+  "main": "index.js",
+  "authors": [
+    "Ruairi O'Brien"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ruairitobrien/ruairitobrien.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "freedom-site",
+  "version": "1.0.0",
+  "description": "Freedom within the heart website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruairitobrien/ruairitobrien.github.io.git"
+  },
+  "author": "Ruairi O'Brien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruairitobrien/ruairitobrien.github.io/issues"
+  },
+  "homepage": "https://github.com/ruairitobrien/ruairitobrien.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngquant": "^4.2.0",
+    "lodash": "^3.10.1",
+    "shelljs": "^0.5.3"
+  }
+}
