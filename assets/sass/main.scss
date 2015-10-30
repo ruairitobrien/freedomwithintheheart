@@ -103,7 +103,7 @@ background: url(../../images/about.jpg) 50% 0% fixed repeat;
   min-height: 650px; }
 
 #literature {
-  background: url(../../images/graphic-novel.jpg) 50% 0% fixed repeat;
+  background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
   background-size: 100% 100%;
   min-height: 650px; }
 
@@ -222,10 +222,15 @@ navbar-fixed-top {
     background-size: auto 100%; }
 
   #literature {
-    background: url(../../images/graphic-novel.jpg) 50% 0% fixed repeat;
+    background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; }
 
   footer {
     background: url(../../images/about.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; } }
     
+    
+  
+  .novels {
+    padding-left: 10%;
+  }
