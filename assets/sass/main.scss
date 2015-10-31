@@ -8,20 +8,37 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
-
-
+  
+  
+  
 header#top-section {
-  position: relative;
-  overflow: hidden;
-  padding-top: 0px;
-  background: url(../../images/freedom-backdrop.jpg) 50% 0% fixed no-repeat;
-  background-size: 100% 100%;
-  min-height: 700px;
-  width: 100%;
-  min-width: 100%;
-  z-index: 0;
+   background: url(../../images/freedom-backdrop-sml.png) 50% 0% fixed no-repeat;
+   background-size: 100% 100%;        
+   min-height: 420px;
+    max-height: 500px;    
+    max-width: 100%; 
+    }
 
-   }
+  #about {
+    background: url(../../images/mountains-sm.jpg) 50% 0% fixed repeat;
+    background-size: auto 100%; }
+
+  #literature {
+    background: url(../../images/amazing-small.jpg) 50% 0% fixed repeat;
+    background-size: auto 100%; }
+
+  footer {
+    background: url(../../images/about.jpg) 50% 0% fixed repeat;
+    background-size: auto 100%; } 
+    
+    .novels {
+    padding-left: 10%;
+  }
+  
+  .social-buttons {
+    padding-top: 20px;
+  }
+
    header#top-section h1{
    	color: #D4AF37;
     font-size: 350%;
@@ -97,28 +114,6 @@ section {
   min-width: 100%;
   position: relative;
   overflow: hidden; }
-
-#about {
-background: url(../../images/mountains.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%; 
-  min-height: 650px; }
-
-#literature {
-  background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%;
-  min-height: 650px; }
-
-footer {
-  background: url(../../images/about.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%;
-  max-height: 600px; }
-
-footer {
-  width: 100%;
-  min-width: 100%;
-  padding-top: 50px;
-  min-height: 600px;
-  position: relative; }
 
 #literature hr {
   color: tramsparent; }
@@ -216,34 +211,85 @@ navbar-fixed-top {
     
     
     
-    
-@media (max-width: 762px) {
+  
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
   header#top-section {
-    background: url(../../images/freedom-backdrop-sml.png) 50% 0% fixed no-repeat;
-    background-size: 100% 100%;        
-    min-height: 420px;
-    max-height: 500px;    
-    max-width: 100%; 
-    }
+  position: relative;
+  overflow: hidden;
+  padding-top: 0px;
+  background: url(../../images/freedom-backdrop.jpg) 50% 0% fixed no-repeat;
+  background-size: 100% 100%;
+  min-height: 600px;
+  width: 100%;
+  min-width: 100%;
+  z-index: 0;
 
-  #about {
-    background: url(../../images/mountains-sm.jpg) 50% 0% fixed repeat;
-    background-size: auto 100%; }
+   }
+   
+   #about {
+background: url(../../images/mountains.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%; 
+  min-height: 550px; }
 
-  #literature {
-    background: url(../../images/amazing-small.jpg) 50% 0% fixed repeat;
-    background-size: auto 100%; }
+#literature {
+  background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%;
+  min-height: 550px; }
 
-  footer {
-    background: url(../../images/about.jpg) 50% 0% fixed repeat;
-    background-size: auto 100%; } }
-    
-    
+footer {
+  background: url(../../images/about.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%;
+  max-height: 500px; }
+
+footer {
+  width: 100%;
+  min-width: 100%;
+  padding-top: 50px;
+  min-height: 500px;
+  position: relative; }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
   
-  .novels {
-    padding-left: 10%;
-  }
-  
-  .social-buttons {
-    padding-top: 20px;
-  }
+  header#top-section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 0px;
+  background: url(../../images/freedom-backdrop.jpg) 50% 0% fixed no-repeat;
+  background-size: 100% 100%;
+  min-height: 700px;
+  width: 100%;
+  min-width: 100%;
+  z-index: 0;
+
+   }
+   
+   #about {
+background: url(../../images/mountains.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%; 
+  min-height: 650px; }
+
+#literature {
+  background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%;
+  min-height: 650px; }
+
+footer {
+  background: url(../../images/about.jpg) 50% 0% fixed repeat;
+  background-size: 100% 100%;
+  max-height: 600px; }
+
+footer {
+  width: 100%;
+  min-width: 100%;
+  padding-top: 50px;
+  min-height: 600px;
+  position: relative; }
+ }
