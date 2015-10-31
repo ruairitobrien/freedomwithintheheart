@@ -203,16 +203,16 @@ navbar-fixed-top {
 
 @media (max-width: 762px) {
   header#top-section {
-    background: url(../../images/freedom-backdrop-small.jpg) 50% 0% fixed no-repeat;
-    background-size: auto 100%;
-    height: auto;
-    min-height: 320px;
+    background: url(../../images/freedom-backdrop-sml.png) 50% 0% fixed no-repeat;
+    background-size: 100% 100%;
+    min-height: 420px;
+    max-height: 500px;
     max-width: 100%; }
   #about {
     background: url(../../images/about.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; }
   #literature {
-    background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
+    background: url(../../images/amazing-small.jpg) 50% 0% fixed repeat;
     background-size: auto 100%; }
   footer {
     background: url(../../images/about.jpg) 50% 0% fixed repeat;
