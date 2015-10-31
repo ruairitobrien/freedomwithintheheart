@@ -13,11 +13,15 @@ h1, h2, h3, h4, h5, h6 {
   
 header#top-section {
    background: url(../../images/freedom-backdrop-sml.png) 50% 0% fixed no-repeat;
-   background-size: 100% 100%;        
-   min-height: 420px;
-    max-height: 500px;    
-    max-width: 100%; 
-    }
+   background-size:100% auto;          
+   max-width: 100%; 
+   height: 600px;
+   display: block;
+   position: relative;
+  overflow: hidden;
+  padding-top: 0px;
+  z-index: 0;
+   }
 
   #about {
     background: url(../../images/mountains-sm.jpg) 50% 0% fixed repeat;
@@ -225,7 +229,7 @@ navbar-fixed-top {
   padding-top: 0px;
   background: url(../../images/freedom-backdrop.jpg) 50% 0% fixed no-repeat;
   background-size: 100% 100%;
-  min-height: 600px;
+  min-height: 700px;
   width: 100%;
   min-width: 100%;
   z-index: 0;
@@ -257,39 +261,18 @@ footer {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  
-  header#top-section {
-  position: relative;
-  overflow: hidden;
-  padding-top: 0px;
-  background: url(../../images/freedom-backdrop.jpg) 50% 0% fixed no-repeat;
-  background-size: 100% 100%;
-  min-height: 700px;
-  width: 100%;
-  min-width: 100%;
-  z-index: 0;
-
-   }
    
-   #about {
-background: url(../../images/mountains.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%; 
+   #about { 
+    min-height: 650px;
+    }
+
+#literature {    
   min-height: 650px; }
 
-#literature {
-  background: url(../../images/amazing.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%;
-  min-height: 650px; }
-
-footer {
-  background: url(../../images/about.jpg) 50% 0% fixed repeat;
-  background-size: 100% 100%;
+footer {    
   max-height: 600px; }
 
 footer {
-  width: 100%;
-  min-width: 100%;
-  padding-top: 50px;
   min-height: 600px;
-  position: relative; }
+  }
  }
